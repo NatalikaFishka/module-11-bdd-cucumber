@@ -6,9 +6,9 @@ npm run test
 
 #### Following options could be specified
 
-* Use `--tag` flag to specify tests to run, like `@smoke`, `@full`, `@nav`, `@lang`, `@so`. 
+* Use `--tags` flag to specify tests to run, like `@smoke`, `@full`, `@nav`, `@lang`, `@so`. 
 ```
-npm run test -- --tag "@smoke"
+npm run test -- --tags "@smoke"
 ```
 
 #### JSON and HTML reports could be found in `reports` folder after test run
